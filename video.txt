@@ -1,0 +1,164 @@
+IBM ThinkPad                                         February 24, 2003
+Video Features(SavageIX8) for Windows 2000/XP
+
+Version 7.90.50
+=======================================================================
+
+
+What This Package Does
+----------------------
+This package provides the display driver for Windows 2000/XP users.
+
+The driver enables or updates the display function of the following
+ThinkPad computers:
+  - ThinkPad T20/T21/T22
+  - ThinkPad A22e Pentium model
+
+To determine if you should update the display driver or not, refer to
+the "Summary of Changes" section.
+
+To update the display driver, refer to the "Installation Instruction"
+section.
+
+
+Released Versions
+-----------------
+(For Windows 2000 users)
+Version 7.30.34  Initial release
+Version 7.30.39  Few problem fix
+Version 7.31.11  Problem fix and ThinkPad T21 support
+Version 7.31.14  Problem fix
+Version 7.31.22  Problem fix
+Version 7.40.17  Problem fix
+Version 7.40.32  Problem fix and ThinkPad A22e support
+Version 7.40.35  Problem fix
+Version 7.40.44  Problem fix
+Version 7.40.50  Problem fix
+Version 7.40.53  Problem fix
+
+(For Windows XP users)
+Version 7.90.24  Initial release
+Version 7.90.34  Problem fixes
+
+(For Windows 2000/XP users)
+Version 7.90.50  Problem fixes
+
+
+Summary of Changes
+------------------
+Where: <n.nn>  Package version (for example, 1.00 means Version 1.00)
+       (New)   New function or enhancement
+       (Fix)   Correction to existing function
+
+(For Windows 2000 users)
+------------------------
+<7.30.39>
+ -(Fix) System will trap after clicking Preview for the 3D MAZE
+        screen saver.
+ -(Fix) Backlight is not turned off by the LCD off timer.
+ -(Fix) Problems when switching between the Display devices.
+
+<7.31.11>
+-(New) Support for ThinkPad T21
+-(Fix) TV PAL 640x480 display is out of sync. or flickering on T21
+       model only.
+
+<7.31.14>
+-(Fix) OpenGL applications do not work when logging in as user mode.
+
+<7.31.22>
+-(Fix) Horizontal noise appears on the desktop on SXGA+ panel model
+       only while playback video clip files on simultaneous display
+       LCD+CRT.
+-(Fix) System intermittently locks when resuming from hibernation
+       with simultaneous display LCD+CRT.
+
+<7.40.17>
+-(Fix) DVD playback screen is greenish with DVD to GO.
+-(Fix) Remove VPM version information from S3DuoView in display
+       properties.
+-(New) Improve OpenGL ICD driver performance.
+-(Fix) 3D object is behind horizontal plane with ABB RobotStudio.
+-(Fix) 3D OpenGL screen saver is slow.
+
+<7.40.32>
+-(Fix) In some display modes, OpenGL screen savers will appear blank.
+
+<7.40.35>
+-(Fix) Microsoft digital signature.
+
+<7.40.44>
+-(Fix) System hangs up at opening movie with StarTrek Elite Force.
+-(Fix) Screen freezes when scroll up/down with Explorer after screen
+       off with Fn+F3 key.
+-(Fix) Error message appears then preview screen is blank with Margi
+       TV-to-Go.
+
+<7.40.50>
+-(Fix) Excel data cannot be pasted onto PowerPoint properly.
+
+<7.40.53>
+-(Fix) System locks after suspend when playing DVD.
+
+(For Windows XP users)
+----------------------
+<7.90.24>
+ -(New) Support Windows XP.
+
+<7.90.34>
+ -(Fix) The 'Analog Copy Protection' message appears during playback of 
+        the DVD title with MediaPlayer on a ThinkPad A22e Pentium 
+        model.
+ -(Fix) Color depth is not changed when changing display modes in
+        extended desktop mode.
+ -(Fix) Error message appears and DVD playback cannot be executed at
+        1400x1050 64K color on SXGA+ panel.
+
+(For Windows 2000/XP users)
+---------------------------
+ -(Fix) The Display properties show the wrong information when enabling
+        the TV out function while the LCD is running at 1400x1050 
+        resolution.
+ -(Fix) Some OpenGL applications fail to render properly.
+
+
+Installation instructions
+-------------------------
+ 1. Start Windows 2000/XP and logon with administrative privileges.
+ 2. Extract the video drivers to the hard disk drive.
+ 3. Click Start and then click Run.
+ 4. In the Run dialog window, type C:\DRIVERS\WIN\VIDEO\SETUP.EXE
+    to install the video driver. Click the OK button to start the
+    installation process. If you extracted the files to a different
+    location, specify that location instead.
+ 5. Follow the prompts on the screen.
+
+To uninstall the S3 driver including any S3 utilities:
+ 1. Click Start, then click Control Panel.
+ 2. Click the Add/Remove Programs icon.
+ 3. Select the SavageIX and Utilities in the listbox.
+ 4. Click the Change/Remove button to remove the display driver.
+
+NOTE:
+If necessary, the Uninstall procedure will reset the system to VGA.
+
+
+Determining which version is installed
+--------------------------------------
+ 1. Click Start, select Settings, then click Control Panel.
+ 2. Double-click the Display icon.
+ 3. Select the Settings tab.
+ 4. Click the Advanced button.
+ 5. Select the S3DuoVue tab.
+ 6. Click the Information button to check the version information.
+    For example, 6.13.10.7050-7.90.50
+
+
+Trademarks
+----------
+  * IBM and ThinkPad are registered trademarks of IBM Corporation.
+  * Windows is a registered trademark of Microsoft Corporation.
+
+  Other company, product, and service names may be registered
+  trademarks, trademarks or service marks of others.
+
